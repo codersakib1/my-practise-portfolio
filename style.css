@@ -1,15 +1,19 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+   
 }
 h1{
     font-size: 50px;
     line-height:50px;
 }
+h2{
+    font-size: 40px;
+}
 .orange-color{
     color: orange;
 }
-section{
+.flexibal-area{
     display: flex;
     margin-bottom: 150px;
 }
@@ -19,7 +23,7 @@ section{
     padding-right: 10px;
 }
 .half-width img{
-    max-width: 60%;
+    max-width: 75%;
     margin-top: 10px;
 }
 .link-button{
@@ -40,12 +44,45 @@ section{
     background-image: url(./image/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    background-position-y: 0%
+    ;
 }
-.img2{
-    margin: 25%;
+.experience-area{
+    background-image: url(./image/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 6%;
+    margin-right: 5%;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+    
+    
+}
+#web-dev {
+
+    border-image: linear-gradient(#f6b73c, #4d9f0c) 30;
+    border-left: 9px solid;
+
 
 }
-.dream-big p{
-    margin-right: 25px;
-
+#full-stack{
+    border-image: linear-gradient(tomato, rgb(235, 32, 86)) 30;
+    border-left: 9px solid;
+}
+.experience-item p{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: green;
+}
+footer p{
+    text-align: center;
+    background-color: #f6b73c;
+    padding: 15px;
+    font-size: 25px;
+    margin-bottom: 0;
+ 
 }
